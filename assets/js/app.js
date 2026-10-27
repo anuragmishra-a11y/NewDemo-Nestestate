@@ -1,0 +1,1 @@
+function calcROI(){let i=+document.getElementById("inv").value||0;let y=+document.getElementById("yield").value||0;document.getElementById("out").innerHTML="Estimated annual income: €"+(i*y/100).toFixed(2);}
